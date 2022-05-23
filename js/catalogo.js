@@ -55,7 +55,7 @@ fetch("productos.json")
                 let marca_moto = btn.dataset.productMarca;
                 let nombre_moto = btn.dataset.productNombre;
                 let precio_moto = btn.dataset.productPrecio;
-                listaProductos = [];
+                let listaProductos = [];
 
                 const crearProducto = () => {
                     const nuevoProducto = new Moto(id_moto, img_Moto, marca_moto, nombre_moto, precio_moto);
