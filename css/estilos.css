@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+}
+
+/* body{
+    background-color: #EEEEEE;
+} */
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+ul li a:hover {
+    box-shadow: 0px 0px 20px #0d6efd;
+    transition: all 300ms;
+    font-size: 20px;
+}
+
+.fondo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/nuevo_fondo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-fondo {
+    margin-left: 5%;
+    color: aliceblue;
+}
+
+.fondo .texto-fondo a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.fondo .texto-fondo a:hover {
+    color: black;
+    background-color: aliceblue;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+/* estilos para cuando no hay motos en el carrito */
+.ocultar_carritoVacio {
+    display: none;
+}
+
+.mostrar_carritoVacio {
+    visibility: visible;
+}
+
+/* estilos para los datos de contacto */
+.ocultar_datos {
+    display: none;
+}
+
+.mostrar_datos {
+    visibility: visible;
+}
+
+/* estilos ocultar y mostrar la cotizacion */
+.ocultar_cotizacion {
+    display: none;
+}
+
+.mostrar_cotizacion {
+    visibility: visible;
+}
+
+/* estilos del aviso para llenar el formulario */
+.ocultar_aviso {
+    display: none;
+}
+
+.mostrar_aviso {
+    visibility: visible;
+}
+
+/* estilos de la TABLA del carrito */
+.ocultar_tabla {
+    display: none;
+}
+
+.mostrar_tabla{
+    align-items: center;
+    visibility: visible; 
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.mostrar_tabla td {
+    text-align: center;
+    width: 300px;
+}
+
+
+/* estilos para visualizar el total a pagar */
+.ocultar_resultadoCarrito {
+    display: none;
+}
+
+.mostrar_resultadoCarrito {
+    visibility: visible;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #2E86C1;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* estilo para la fuente de letra del nombre de la marca */
+.nombre-marca {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* estilos para el nombre y precio en la hoja catalogo */
+.datos-extra {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* estilos para los botones de agregar al carrito en la hoja catalogo */
+#boton_agregar {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #2E86C1;
+    background: #2E86C1;
+}
+
+#boton_agregar:hover {
+    background: #fff;
+    color: #2E86C1;
+}
+
+
+/* estilos para BOTON ELIMINAR  */
+#boton_eliminar {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+}
+
+#boton_eliminar,
+#boton_eliminar span {
+    transition: 200ms;
+}
+
+#boton_eliminar .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
+
+#boton_eliminar .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boton_eliminar svg {
+    width: 15px;
+    fill: #eee;
+}
+
+#boton_eliminar:hover {
+    background: #ff3636;
+}
+
+#boton_eliminar:hover .text {
+    color: transparent;
+}
+
+#boton_eliminar:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+#boton_eliminar:focus {
+    outline: none;
+}
+
+#boton_eliminar:active .icon svg {
+    transform: scale(0.8);
+}
+
+/* estilos en hoja CARRITO para cada producto */
+.producto_carrito{
+    /* padding-left: 20px; */
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(222, 237, 242);
+}
+.producto_carrito:hover{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(195, 228, 239);
+}

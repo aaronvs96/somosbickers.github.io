@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "marca": "BAJAJ",
+        "nombreMoto": "Bajaj Boxer-100 2021",
+        "precio": 890,
+        "img": "../img/listaMotos/bajaj-boxer-100-2021.png"
+    },
+    {
+        "id": 2,
+        "marca": "HONDA",
+        "nombreMoto": "Honda cb125F Twister 2022",
+        "precio": 1563,
+        "img": "../img/listaMotos/honda-cb125f-twister-2022.png"
+    },
+    {
+        "id": 3,
+        "marca": "HONDA",
+        "nombreMoto": "Honda Navi-110 2022",
+        "precio": 7425,
+        "img": "../img/listaMotos/honda-navi-110-2022.png"
+    },
+    {
+        "id": 4,
+        "marca": "HONDA",
+        "nombreMoto": "Honda X-Blade 2021",
+        "precio": 6633,
+        "img": "../img/listaMotos/honda-x-blade-2021.png"
+    },
+    {
+        "id": 5,
+        "marca": "NEXUS",
+        "nombreMoto": "Nexus 110a 2021",
+        "precio": 7485,
+        "img": "../img/listaMotos/nexus-110a-2021.png"
+    },
+    {
+        "id": 6,
+        "marca": "NEXUS",
+        "nombreMoto": "Nexus 110v 2021",
+        "precio": 2587,
+        "img": "../img/listaMotos/nexus-110v-2021.png"
+    },
+    {
+        "id": 7,
+        "marca": "NEXUS",
+        "nombreMoto": "Nexus 150dk 2021",
+        "precio": 8112,
+        "img": "../img/listaMotos/nexus-150dk-2021.png"
+    },
+    {
+        "id": 8,
+        "marca": "RONCO",
+        "nombreMoto": "Ronco RC-110c 2021",
+        "precio": 3250,
+        "img": "../img/listaMotos/ronco-rc-110c-2021.png"
+    },
+    {
+        "id": 9,
+        "marca": "SSENDA",
+        "nombreMoto": "Ssenda Finiti-150 Sport 2022",
+        "precio": 4100,
+        "img": "../img/listaMotos/ssenda-finiti-150-sport-2022.png"
+    },
+    {
+        "id": 10,
+        "marca": "SSENDA",
+        "nombreMoto": "Ssenda Gol-120 2022",
+        "precio": 1800,
+        "img": "../img/listaMotos/ssenda-gol-125-2022.png"
+    },
+    {
+        "id": 11,
+        "marca": "YAMAHA",
+        "nombreMoto": "Yamaha yb125 Chacarera 2021",
+        "precio": 5200,
+        "img": "../img/listaMotos/yamaha-yb125-chacarera-2021.png"
+    },
+    {
+        "id": 12,
+        "marca": "YAMAHA",
+        "nombreMoto": "Yamaha ybr125z 2021",
+        "precio": 3680,
+        "img": "../img/listaMotos/yamaha-ybr125z-2021.png"
+    }
+]

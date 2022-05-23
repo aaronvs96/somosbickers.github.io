@@ -1,0 +1,14 @@
+.ocultar_tarjeta_moto{
+    display:none;
+}
+
+
+.mostrar_tarjeta_moto{
+    visibility: visible;
+}
+
+.btn_agregar_carrito{
+    background-color: black;
+    color:white;
+}
+

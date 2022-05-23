@@ -1,0 +1,34 @@
+.centra_forms{
+    background-color: rgb(201, 225, 238);
+    padding: 5% 10%;
+    border-radius: 15px;
+}
+
+.formulario{
+    background-color: #AEB6BF;
+    padding: 5% 10%;
+    border-radius: 15px;
+}
+
+#resultadoCotizacion{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 40px;
+    background-color: rgb(219, 246, 244);
+}
+
+#resultadoCotizacion .title_cotizar{    
+    text-align: center;
+}
+
+
+#datos_completados{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 40px;
+    background-color: rgb(219, 246, 244);
+}
+
+#datos_completados .title_datos{
+    text-align: center;
+}
